@@ -1,0 +1,51 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.sidebarLogo {
+  position: relative;
+  left: 10px !important;
+}
+.menu-title{
+  color: whitesmoke !important;
+  /* color: inherit; */
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+.title{
+  color: red;
+}
+.card{
+  width: 18rem;
+}
+.contentbody{
+  position: absolute;
+  width: 80%;
+  top: 3%;
+  left: 18%;
+}
+.flex,.graph{
+  display: flex;
+  flex-direction: row;
+}
+.btnRow{
+  display: flex;
+  justify-content:flex-end;
+}
+.shadowCard{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.sidebar{
+  height: 100%;
+  position: fixed;
+  padding-left: 100px;
+}
+.addResearchdialogue{
+  width: 100% !important;
+}
