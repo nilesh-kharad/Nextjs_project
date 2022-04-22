@@ -63,6 +63,7 @@ const Academicresearch = () => {
 
   const [Research, setResearch] = React.useState('');
   const [openResearch, setOpenResearch] = React.useState(false);
+  const [openUniversity, setOpenUniversity] = React.useState(false);
 
   const [Sponsored, setSponsor] = React.useState('');
   const [openSponsored, setOpenSponsor] = React.useState(false);
@@ -186,7 +187,6 @@ const Academicresearch = () => {
 
     axios.post(baseURL, data)
       .then((response) => {
-        console.log(response.data)
       }).catch(
         err => {
           console.error(err)
@@ -200,7 +200,7 @@ const Academicresearch = () => {
   const uploadFiles = (file) => {
 
     if (!file) return;
-    console.log("Your file is here", file)
+
     const storageRef = ref(storage, `/files/${file.name}`);
     const uploadTask = uploadBytesResumable(storageRef, file);
     uploadTask.on("state_changed", (snapshot) => {
@@ -211,7 +211,6 @@ const Academicresearch = () => {
     }, () => {
       getDownloadURL(uploadTask.snapshot.ref)
         .then(fileurl => {
-          console.log("uploaded", fileurl)
           setAllfileurls(fileurl)
 
         }

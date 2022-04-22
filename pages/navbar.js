@@ -29,21 +29,28 @@ const Sidebar = () => {
               <span className="menu-title">Faculty Qualification</span>
             </Link>
           </li>
+          <li className="nav-item nav-category">Set Up</li>
           <li className="nav-item">
-            <Link className="nav-link" href="#charts">
-              <span className="menu-title">Faculty Retention</span>
+            <Link className="nav-link" href="/setup/basicInfo">
+              <span className="menu-title">Basic Information</span>
             </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" href="#charts">
-              <span className="menu-title">Innovations</span>
+              <span className="menu-title">Department Setup</span>
             </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" href="#charts">
-              <span className="menu-title">Faculty as Participants</span>
+              <span className="menu-title">User Setup</span>
             </Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" href="#charts">
+              <span className="menu-title">Criteria Setup</span>
+            </Link>
+          </li>
+
           <li className="nav-item nav-category">Research and Development</li>
           <li className="nav-item">
             <Link className="nav-link" href="/Academicresearch">

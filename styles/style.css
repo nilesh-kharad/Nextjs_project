@@ -32288,11 +32288,13 @@ div.tagsinput span.tag a {
 /* Sidebar */
 .sidebar {
   min-height: calc(100vh - 97px);
-  background: hsl(220deg 63% 35%);
+  background:#182846;
+  background:#283d64;
+  
   font-family: "Manrope", sans-serif;
   font-weight: 500;
   padding: 0;
-  width: 220px;
+  width: 170px;
   z-index: 11;
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
@@ -35558,6 +35560,12 @@ div.tagsinput span.tag a {
   #settings-trigger {
     display: none;
   }
+}
+.heading-color{
+  position: relative;
+  left: -22px;
+  background-color: #eaecf0;
+  padding: 10px 20px;
 }
 
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */

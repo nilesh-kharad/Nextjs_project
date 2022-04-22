@@ -28,7 +28,13 @@ body {
   position: absolute;
   width: 80%;
   top: 3%;
-  left: 18%;
+  left: 14%;
+}
+#program_Logic th{
+  padding:0;
+}
+#acreditions{
+  width: 35%;
 }
 .flex,.graph{
   display: flex;
@@ -48,4 +54,16 @@ body {
 }
 .addResearchdialogue{
   width: 100% !important;
+}
+.nav-link{
+  margin-left: 15px !important;
+}
+.BasicInfoForm input{
+  display: block;
+}
+body{
+  overflow-x: scroll;
+}
+.saveBtn{
+  background-color: #283d64;
 }

@@ -3,8 +3,6 @@ import '../styles/style.css'
 import Head from "next/head";
 import Script from 'next/script'
 import Navbar from './navbar'
-
-
 function MyApp({ Component, pageProps }) {
   return (
   <>
