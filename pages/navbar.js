@@ -15,8 +15,8 @@ const Sidebar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="#charts">
-              <span className="menu-title">Students Faculty Ratio</span>
+            <Link className="nav-link" href="/payments">
+              <span className="menu-title">payments</span>
             </Link>
           </li>
           <li className="nav-item">

@@ -16,12 +16,12 @@ const index = () => {
   const loadUsers = async (token) => {
     const result = await axios.get("http://127.0.0.1:3001/user/624d6e840494e4d2936a7abe", {
       headers: {
-        Authorization:'Bearer ' + token
+        Authorization:'Bearer ' + token +'nil'
       }
     });
     setData(result.data)
     setAuth(true)
-    console.log(result.data)
+    console.log(result)
 
 
 
